@@ -39,8 +39,8 @@ jobs:
           cache: "npm"
           cache-dependency-path: package-lock.json
 
-      - id: install-nodejs-dependencies
-        name: Install Node.JS dependencies
+      - id: install-dependencies
+        name: Install dependencies
         run: npm install --dev
         shell: bash
 
